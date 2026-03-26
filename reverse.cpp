@@ -19,10 +19,10 @@ int main () {
         char_count++;
     }
    }
-
+//after this the file is at the end and the pointer is at the end
    cout<<char_count<<endl;
-   filedata.clear();
-   filedata.seekg(0);
+   filedata.clear();//reset the file
+   filedata.seekg(0);//bring the pointer at start
 
    while (filedata>>data){
      string_count ++;
@@ -34,3 +34,5 @@ int main () {
 
     return 0;
 }
+
+void reverse()
