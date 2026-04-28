@@ -2,6 +2,7 @@
 #pragma Once
 
 class Triangle: public Polygon{
-    public: 
+    public:
+        Triangle(int b, int h);
         int Area();
 };
