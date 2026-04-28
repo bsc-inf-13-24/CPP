@@ -14,9 +14,8 @@ int main () {
     pPoly1->SetValues(4,5);
     pPoly2->SetValues(4,5);
 
-
-    cout <<pPoly1->Area() << "\n";
-    cout << pPoly2->Area() << "\n";
+    pPoly1->printArea();
+    pPoly2->printArea();
 
     return 0;
 }
