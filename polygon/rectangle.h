@@ -3,5 +3,5 @@
 
 class Rectangle: public Polygon{
     public:
-       int area();
+       int Area();
 };

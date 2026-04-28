@@ -1,5 +1,5 @@
 #include "triangle.h"
 
-int Triangle::area(){
+int Triangle::Area(){
     return mWidth * mHeight/2;
 }

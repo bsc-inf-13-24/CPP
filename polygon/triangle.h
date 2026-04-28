@@ -3,5 +3,5 @@
 
 class Triangle: public Polygon{
     public: 
-        int area();
+        int Area();
 };
